@@ -1,37 +1,17 @@
-body{
+/* Pour régler le margin de gauche */
+body{ 
     margin: 0;
 }
 
-
 #imgProfil{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 50%;
     display: block;
     max-width: 110px;
     object-fit: contain;
     aspect-ratio: 110/108;
-}
-
-.logo{
-    margin-left: 5px;
-    margin-right: 5px;
-
-    width: 40px;
-    height: 40px;
-}
-
-#menu-div{
-    height: 100%;
-    width: 40%;
-    background-color: rgb(216, 214, 214);
-    padding-left: 10px;
-
-}
-
-#menu-logo{
-    position: fixed;
-    bottom: 0;
-    padding-bottom: 20px;
-    
 }
 
 .align{
@@ -42,6 +22,36 @@ body{
     
     position: fixed;
     height: 100%;
-    
-   
 }
+
+.menu-div{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(216, 214, 214);
+
+}
+
+.menu_click{
+    margin-left: 10px;
+}
+
+.menu-logo{
+
+    margin-left: 10px;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 20px;
+    
+}
+
+.logo{
+    
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    width: 40px;
+    height: 40px;
+}
+
+
