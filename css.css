@@ -1,4 +1,10 @@
 #imgProfil{
     border-radius: 50%;
     width: 10%;
+    height: 10%;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
 }
