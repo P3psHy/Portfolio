@@ -86,6 +86,8 @@ body{
 
 /* Caroussel */
 
+
+
 /* Fin Caroussel */
 
 .titre{
@@ -135,13 +137,15 @@ body{
 .copyright{
     margin-left: 10px;
     margin-top: 15px;
-    margin-right: 20vw;
+    margin-right: 30vw;
     
 }
 
 .menu_footer{
-    margin-top: 10px;
-    margin-left: 50px;
+    
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     transition: 0.3s;
 }
 
