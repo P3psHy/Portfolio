@@ -14,6 +14,11 @@ body{
     aspect-ratio: 110/108;
 }
 
+*{
+    margin:0;
+    padding: 0;
+}
+
 .align{
     background-color: red;
     display: flex;
@@ -29,10 +34,8 @@ body{
 }
 
 .menu-div{
-    height: 100%;
-    width: 20%;
     background-color: rgb(216, 214, 214);
-
+    box-sizing: content-box;
     width: 17vw;
     height: 100vh;
 }
@@ -40,8 +43,8 @@ body{
 .menu_click{
     text-align: left;
     padding-left: 10px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     transition: 0.3s;
 }
 
@@ -55,7 +58,7 @@ body{
     margin-left: 10px;
     position: fixed;
     bottom: 0;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     
 }
 
@@ -75,22 +78,76 @@ body{
 
 .info{
     background-color: grey;
-    width:80vw;
- 
+    width:83vw;
+    text-align: center;
+    
 }
 
-.projets{
-    background-color: blue;
-    
- 
-}
-
-.footer{
-    background-color: yellow;
-    
- 
-}
 
 /* Caroussel */
 
+/* Fin Caroussel */
 
+.titre{
+    background-color: azure;
+    
+}
+
+/*Projets */
+
+.projets{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.projet1{
+    background-color: green;
+    
+}
+
+.projet2{
+    background-color: green;
+}
+
+.projet3{
+    background-color: green;
+}
+
+/* Fin Projets  */
+
+/* Footer */
+
+
+.footer{
+    display: flex;
+
+    background-color: yellow;
+    position: fixed;
+    bottom: 0;
+    margin-left: 17vw;
+    width: 83%;
+    height: 5%;
+}
+
+.copyright{
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-right: 20vw;
+    
+}
+
+.menu_footer{
+    margin-top: 10px;
+    margin-left: 50px;
+    transition: 0.3s;
+}
+
+.menu_footer:hover{
+    transition: 0.3s;
+    background-color: rgb(196, 194, 194);
+}
+
+/* Fin Footer */
