@@ -36,7 +36,7 @@ body{
 .menu-div{
     background-color: rgb(216, 214, 214);
     box-sizing: content-box;
-    width: 17vw;
+    width: 15vw;
     height: 100vh;
 }
 
@@ -84,16 +84,15 @@ body{
 }
 
 
-/* Caroussel */
-
-
-
-/* Fin Caroussel */
-
 .titre{
     background-color: azure;
+    height: 6vh;
+    width: 85vw;
     
+    text-align: center;
 }
+
+
 
 /*Projets */
 
@@ -105,18 +104,13 @@ body{
     
 }
 
-.projet1{
+.projet{
     background-color: green;
-    
+    height: 100px;
+    width: 100px;
+    border-radius: 15%;
 }
 
-.projet2{
-    background-color: green;
-}
-
-.projet3{
-    background-color: green;
-}
 
 /* Fin Projets  */
 
@@ -125,27 +119,27 @@ body{
 
 .footer{
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 
     background-color: yellow;
     position: fixed;
     bottom: 0;
-    margin-left: 17vw;
-    width: 83%;
-    height: 5%;
+    right: 0;
+    height: 5vh;
+    width: 85vw;
 }
 
 .copyright{
-    margin-left: 10px;
     margin-top: 15px;
     margin-right: 30vw;
     
 }
 
 .menu_footer{
-    
     padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
     transition: 0.3s;
 }
 
