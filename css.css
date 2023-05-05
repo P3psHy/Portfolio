@@ -73,7 +73,7 @@ body{
 }
 
 .menu-div{
-    background-color: #2B2A2A;
+    background-color: rgb(216, 214, 214);;
     width: 15%;
     height: 100%;
 
@@ -156,16 +156,27 @@ body{
 .projets{
     background-color: blue;
     display: flex;
+    height: 89%;
     flex-direction: row;
-    
-    
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
 }
 
 .projet{
     background-color: green;
-    height: 23vh;
-    width: 18vw;
+    height: 30vh;
+    width: 25vw;
     border-radius: 15%;
+}
+
+.presentation{
+    background-color: green;
+    height: 65vh;
+    width: 70vw;
+    border-radius: 5%;
 }
 
 
