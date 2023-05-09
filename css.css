@@ -214,9 +214,9 @@ body{
 
 .copyright{
     /* border: solid 2px green; */
-
+    margin-left: 5px;
     height: 100%;
-    width: 10%;
+    width: 12%;
 
     display: flex;
     flex-wrap: wrap;
