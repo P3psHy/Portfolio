@@ -68,7 +68,7 @@ body{
     flex-wrap: wrap;
 
     position: relative;
-    box-shadow: 2px 0 10px black;
+    box-shadow: 2px 0 10px #2B2A2A;
     z-index: 1000;
 }
 
