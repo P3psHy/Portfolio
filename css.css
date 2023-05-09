@@ -4,6 +4,7 @@ body{
     width: 100vw;
     height: 100vh;
 
+    color: #FFFFFF;
     overflow: hidden;
 }
 
@@ -25,6 +26,11 @@ body{
     padding: 0;
 }
 
+.special-text{
+    color: #F2A83D;
+    font-family: Bangers;
+}
+
 /* les flexs */
 
 .total{
@@ -36,7 +42,6 @@ body{
 }
 
 .navbar{
-    border: solid 1px g;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,35 +50,16 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .partierouge{
-    /* background-color: red; */
+    /* background-color: red;  */
     width: 100%;
 
     position: relative;
 }
 
 .menu-div{
-    background-color: rgb(216, 214, 214);;
+    /* rgb(216, 214, 214) */
+    background-color: #2B2A2A ; 
     width: 15%;
     height: 100%;
 
@@ -82,7 +68,7 @@ body{
     flex-wrap: wrap;
 
     position: relative;
-    box-shadow: 5px 0 10px grey;
+    box-shadow: 2px 0 10px black;
     z-index: 1000;
 }
 
@@ -141,7 +127,7 @@ body{
 
 /* Titre haut de page */
 .titre{
-    background-color: azure;
+    background-color: #393838;
     height: 6%;
 
     display: flex;
@@ -154,7 +140,7 @@ body{
 /*Projets */
 
 .projets{
-    background-color: blue;
+    background-color: #000000;
     display: flex;
     height: 89%;
     flex-direction: row;
@@ -166,14 +152,14 @@ body{
 }
 
 .projet{
-    background-color: green;
+    background-color: #D9D9D9;
     height: 30vh;
     width: 25vw;
-    border-radius: 15%;
+    border-radius: 12%;
 }
 
 .presentation{
-    background-color: green;
+    background-color: #D9D9D9;
     height: 65vh;
     width: 70vw;
     border-radius: 5%;
@@ -186,6 +172,8 @@ body{
 
 
 .footer{
+    background-color: #393838;
+
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
