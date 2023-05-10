@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'FugazOne';
+    src: url('/font/FugazOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Sanchez';
+    src: url('/font/Sanchez-Regular.ttf');
+}
+
 *{
     margin:0;
     padding: 0;
@@ -9,18 +19,12 @@ body{
     height: 100vh;
 
     color: #FFFFFF;
+    font-family: 'Sanchez';
+
     overflow: hidden;
 }
 
-@font-face {
-    font-family: 'FugazOne';
-    src: url('/font/FugazOne-Regular.ttf');
-}
 
-@font-face {
-    font-family: 'Sanchez';
-    src: url('/font/Sanchez-Regular.ttf');
-}
 
 #imgProfil{
     margin-top: 10px;
@@ -69,7 +73,7 @@ body{
 .menu-div{
     /* rgb(216, 214, 214) */
     background-color: #2B2A2A ; 
-    width: 15%;
+    width: 12%;
     height: 100%;
 
     display: flex;
@@ -79,6 +83,8 @@ body{
     position: relative;
     box-shadow: 2px 0 10px #2B2A2A;
     z-index: 1000;
+
+    cursor: pointer;
 }
 
 .menu_click{
@@ -91,7 +97,7 @@ body{
 
 .menu_click:hover{
     transition: 0.3s;
-    background-color: rgb(196, 194, 194);
+    background-color: rgb(63, 60, 60);
 }
 
     .menu-logo{
@@ -161,17 +167,22 @@ body{
 }
 
 .projet{
-    background-color: #D9D9D9;
+    background-color: #454545;
     height: 30vh;
     width: 25vw;
     border-radius: 12%;
+
+    box-shadow: 2px 0 10px #adadad;
+
 }
 
 .presentation{
-    background-color: #D9D9D9;
+    background-color: #454545;
     height: 65vh;
     width: 70vw;
     border-radius: 5%;
+
+    box-shadow: 2px 0 10px #adadad;
 }
 
 
@@ -205,6 +216,9 @@ body{
 
     width: 60%;
     height: 100%;
+
+    cursor: pointer;
+
 }   
 
 
@@ -213,7 +227,7 @@ body{
     /* border: solid 2px green; */
     margin-left: 5px;
     height: 100%;
-    width: 12%;
+    width: 15%;
 
     display: flex;
     flex-wrap: wrap;
@@ -232,10 +246,14 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
+
+    transition: 0.3s;
 }
 
+
 .menu_footer:hover{
-    background-color: rgb(196, 194, 194);
+    transition: 0.3s;
+    background-color: rgb(77, 74, 74);;
 }
 
 /* Fin Footer */
