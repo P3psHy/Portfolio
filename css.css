@@ -1,4 +1,8 @@
-/* Pour régler le margin de gauche */
+*{
+    margin:0;
+    padding: 0;
+}
+
 body{ 
     margin: 0;
     width: 100vw;
@@ -6,6 +10,16 @@ body{
 
     color: #FFFFFF;
     overflow: hidden;
+}
+
+@font-face {
+    font-family: 'FugazOne';
+    src: url('/font/FugazOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Sanchez';
+    src: url('/font/Sanchez-Regular.ttf');
 }
 
 #imgProfil{
@@ -21,14 +35,9 @@ body{
 
 
 
-*{
-    margin:0;
-    padding: 0;
-}
-
 .special-text{
     color: #F2A83D;
-    font-family: Bangers;
+    font-family: FugazOne;
 }
 
 /* les flexs */
