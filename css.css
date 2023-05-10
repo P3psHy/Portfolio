@@ -216,6 +216,12 @@ body{
     box-shadow: 2px 0 10px #adadad;
 }
 
+.portfolioImgProjet{
+    border-radius: 50%;
+    object-fit: contain;
+    aspect-ratio: 110/108;
+}
+
 
 /* Fin Projets  */
 
