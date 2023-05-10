@@ -73,7 +73,7 @@ body{
 .menu-div{
     /* rgb(216, 214, 214) */
     background-color: #2B2A2A ; 
-    width: 12%;
+    width: 13%;
     height: 100%;
 
     display: flex;
@@ -169,11 +169,42 @@ body{
 .projet{
     background-color: #454545;
     height: 30vh;
-    width: 25vw;
-    border-radius: 12%;
+    width: 23vw;
+    border-radius: 11%;
 
     box-shadow: 2px 0 10px #adadad;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titreProjet{
+    font-size: 40px;
+}
+
+.texteProjet{
+    margin: 10px ;
+    font-size: 1.4em;
+    text-justify: auto;
+}
+
+.listeCompetenceProjet{
+    display: flex;
+    align-items: center;
+}
+
+.comptencesProjet{
+    border: 4px solid #F2A83D;
+
+    font-size: 20px;
+    font-weight: 900;
+    
+    border-radius: 2rem;
+    padding: 0rem 1rem 0rem 1rem;
+
+    margin: 5px 5px 5px 5px;
 }
 
 .presentation{
