@@ -81,7 +81,6 @@ body{
     flex-wrap: wrap;
 
     position: relative;
-    box-shadow: 2px 0 10px #2B2A2A;
     z-index: 1000;
 
     cursor: pointer;
@@ -100,7 +99,7 @@ body{
     background-color: rgb(63, 60, 60);
 }
 
-    .menu-logo{
+.menu-logo{
     position: absolute;
     bottom: 0;
     width: 100%;
